@@ -307,7 +307,7 @@ transform:translateY(0);
 
 .featured-on .section-header { margin-bottom: 3.5em; }
 
-.featured-sites li { padding: 0 3em 1.0em; }
+.featured-sites li { padding: 0 3em 0.3em; }
 
 .featured-sites li:last-child { padding-bottom: 0; }
 
