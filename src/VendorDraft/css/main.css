@@ -526,6 +526,7 @@ transform:translateY(0);
    ========================================================================== */
    
 .reviews figure { margin-bottom: 1.5em; }
+.reviews { background-color: rgba(0, 0, 0, 0.03); }
 
 blockquote {
   padding: 0 0 0 3em;
@@ -836,27 +837,7 @@ blockquote cite {
 
 .footer-links a:first-child { padding-right: .4em; }
 
-.chat-btn.fixed {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: #587f15 url(../img/chat-icon.svg) center center no-repeat;
-  position: fixed;
-  bottom: 120px;
-  right: 30px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  transition: all 0.2s ease-in-out;
-  z-index: 2;
-}
 
-.chat-btn.fixed { display: none; }
-
-.chat-btn:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.chat-btn.fixed { display: block; }
 
 #modal-contact-form .modal-body { padding: 3em 1em; }
 
